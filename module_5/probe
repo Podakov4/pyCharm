@@ -1,0 +1,6 @@
+num = 2
+num_count = 0
+while num_count < 20:
+    num_count += 1
+    degree = num ** num_count
+    print('2 в степени', num_count, 'равно', degree)
